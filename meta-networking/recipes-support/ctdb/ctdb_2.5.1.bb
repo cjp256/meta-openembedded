@@ -29,7 +29,7 @@ PACKAGECONFIG[libtdb] = "--without-included-tdb,--with-included-tdb,libtdb"
 
 PARALLEL_MAKE = ""
 
-DEPENDS += "popt libtevent libtalloc"
+DEPENDS += "popt libtevent libtalloc libldb"
 
 do_configure() {
     oe_runconf
